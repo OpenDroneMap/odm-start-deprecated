@@ -2,7 +2,7 @@ OpenDroneMap
 
 ---
 
-* Easy to use computer vision software for civilian drones and more
+Easy to use computer vision software for civilian drones and more.
 
 ---
 
@@ -31,8 +31,9 @@ Now clone the Vagrant machine repository, and start up:
 git clone https://github.com/OpenDroneMap/odm.git
 cd odm
 vagrant up
-vagrant ssh #(for windows users see http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+vagrant ssh 
 ```
+(for windows users see http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
 
 ---
 
@@ -46,9 +47,8 @@ If you are not logged in, then:
 
 otherwise
 ```SHELL
-cp /vagrant/BundlerTools.zip ~/.
-unzip BundlerTools.zip
-cd BundlerTools
+unzip /vagrant/BundlerTools.zip /vagrant
+cd /vagrant/BundlerTools
 ```
 
 ---
@@ -56,7 +56,7 @@ cd BundlerTools
 Let's run a test dataset.
 
 ```SHELL
-cd ~/BundlerTools/bundler-v0.4-source/examples/kermit
+cd /vagrant/BundlerTools/bundler-v0.4-source/examples/kermit
 ~/BundlerTools/./run.pl
 ```
 
@@ -68,6 +68,23 @@ Go get a cup of coffee.
 
 ---
 
+Once complete, we should have some extra directories created. Since we specified no parameters, we get the following by default:
 
+```
+reconstruction-with-image-size-1200
+reconstruction-with-image-size-1200-results
+```
 
 ---
+
+To view, we open MeshLab on our host machine. These will be in our original odm directory, e.g.
+
+odm/BundlerTools/src/bundler/examples/kermit/reconstruction-with-image-size-1200-results/option-0000.ply
+
+---
+
+Open MeshLab, choose File:Import Mesh 
+and navigate to the directory and choose option-0000.ply
+
+---
+
