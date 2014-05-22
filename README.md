@@ -1,4 +1,4 @@
-Published at http://bl.ocks.org/anonymous/raw/12c51085e784585c544f/
+Published at http://bl.ocks.org/anonymous/raw/0a651313dbfe72c5c5ae/
 
 ---
 
@@ -37,7 +37,7 @@ cd odm
 vagrant up
 vagrant ssh 
 ```
-(for windows users see http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+(for windows users see https://gist.github.com/haf/2843680)
 
 ---
 
