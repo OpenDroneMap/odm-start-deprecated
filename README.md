@@ -1,7 +1,3 @@
-Published at http://bl.ocks.org/anonymous/raw/0a651313dbfe72c5c5ae/
-
----
-
 OpenDroneMap
 
 ---
@@ -37,7 +33,7 @@ cd odm
 vagrant up
 vagrant ssh 
 ```
-(for windows users see https://gist.github.com/haf/2843680)
+(for windows users see http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
 
 ---
 
@@ -61,7 +57,7 @@ Let's run a test dataset.
 
 ```SHELL
 cd /vagrant/BundlerTools/bundler-v0.4-source/examples/kermit
-~/BundlerTools/./run.pl
+/vagrant/BundlerTools/./run.pl
 ```
 
 ---
