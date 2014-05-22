@@ -61,7 +61,7 @@ cd /vagrant/BundlerTools
 Let's run a test dataset.
 
 ```SHELL
-cd /vagrant/BundlerTools/bundler-v0.4-source/examples/kermit
+cd /vagrant/BundlerTools/src/bundler/examples/kermit
 /vagrant/BundlerTools/./run.pl
 ```
 
