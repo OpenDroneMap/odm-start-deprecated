@@ -1,6 +1,3 @@
-odm-start
-=========
-
 OpenDroneMap
 
 * Easy to use computer vision software for civilian drones and more
@@ -54,16 +51,21 @@ cd BundlerTools
 
 ---
 
-Now we set our path so we can run our one command:
+Let's run a test dataset.
 
 ```SHELL
-echo >> ~/.bashrc && echo 'export PATH=$PATH:~/BundlerTools/bin' >> /home/vagrant/.bashrc
-source ~/.bashrc
+cd ~/BundlerTools/bundler-v0.4-source/examples/kermit
+~/BundlerTools/./run.pl
 ```
 
 ---
 
-Let's run a test dataset.
+Go get a cup of coffee.
 
-```
-cd 
+![](http://i.imgur.com/8cK0aVj.gif)
+
+---
+
+
+
+---
