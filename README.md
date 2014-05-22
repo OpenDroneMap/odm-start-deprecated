@@ -1,3 +1,8 @@
+published at:
+http://bl.ocks.org/anonymous/raw/e7de1118dbbebf9f527d/
+
+---
+
 OpenDroneMap
 
 ---
