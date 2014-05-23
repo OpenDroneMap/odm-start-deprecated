@@ -104,9 +104,10 @@ vagrant halt
 
 Photos:
 
-Use a simple point and shoot.
-GoPro is a maybe (wide angle could be a problem)
-Take lots of overlapping photos.
-Also, consult recommendations at:
-http://wedidstuff.heavyimage.com/index.php/2013/07/12/open-source-photogrammetry-workflow/
+* Use a simple point and shoot.
+* GoPro is a maybe (wide angle could be a problem)
+* Take lots of overlapping photos.
+* Also, consult recommendations at:
+  * http://wedidstuff.heavyimage.com/index.php/2013/07/12/open-source-photogrammetry-workflow/
+  * especially the section named "Pipeline Part 1: VisualFSM"
 
