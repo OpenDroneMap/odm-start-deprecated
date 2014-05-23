@@ -15,12 +15,11 @@ Download and install VirtualBox, Vagrant, and MeshLab
 
 ---
 
-If you are a Windows user, please also install Putty and github for windows:
+If you are a Windows user, please also install GitHub for windows:
 
-* http://tartarus.org/%7Esimon/putty-snapshots/x86/putty-installer.exe
 * https://windows.github.com/
 
-If a Mac user, install github for Mac:
+If a Mac user, install GitHub for Mac:
 
 * https://mac.github.com/
 
@@ -77,9 +76,15 @@ reconstruction-with-image-size-1200-results
 
 ---
 
-To view, we open MeshLab on our host machine. These will be in our original odm directory, e.g.
+To view, we open MeshLab on our host machine. We'll need to copy these to a location available to our host machine:
 
-odm/BundlerTools/src/bundler/examples/kermit/reconstruction-with-image-size-1200-results/option-0000.ply
+```SHELL
+cp ~/BundlerTools/src/bundler/examples/kermit/reconstruction-with-image-size-1200-results/option-0000.ply /vagrant/.
+```
+
+These will be in our original odm directory, e.g.
+
+c:\Users\yourusername\Documents\GitHub\odm\option-0000.ply
 
 ---
 
