@@ -94,3 +94,8 @@ and navigate to the directory and choose option-0000.ply
 
 ---
 
+To halt vm:
+```
+exit
+vagrant halt
+111
