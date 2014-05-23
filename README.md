@@ -98,4 +98,13 @@ To halt vm:
 ```
 exit
 vagrant halt
-111
+```
+
+Photos:
+
+Use a simple point and shoot.
+GoPro is a maybe
+Take lots of overlapping photos.
+Also, consult recommendations at:
+http://wedidstuff.heavyimage.com/index.php/2013/07/12/open-source-photogrammetry-workflow/
+
