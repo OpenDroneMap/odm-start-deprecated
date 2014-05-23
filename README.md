@@ -1,7 +1,3 @@
-published at:
-http://bl.ocks.org/anonymous/raw/e7de1118dbbebf9f527d/
-
----
 
 OpenDroneMap
 
@@ -38,22 +34,20 @@ cd odm
 vagrant up
 vagrant ssh 
 ```
-(for windows users see http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+(for Windows users-- run this in your Git Shell)
 
 ---
-
-Now, on the host machine (not our shiny new Ubuntu machine) copy BundlerTools.zip to our odm directory.  This will appear in the /vagrant/ directory on our Ubuntu Virtual Machine.
-
----
-
-Copy and unzip the directory to our VM from within the VM.
-If you are not logged in, then:
-`vagrant ssh`
 
 otherwise
 ```SHELL
-unzip /vagrant/BundlerTools.zip
-cd /vagrant/BundlerTools
+cd
+git clone https://github.com/OpenDroneMap/BundlerTools.git
+```
+
+This will take a while-- it's a 500MB repo...
+
+```SHELL
+cd ~/BundlerTools
 ./install.sh
 ```
 
@@ -62,8 +56,8 @@ cd /vagrant/BundlerTools
 Let's run a test dataset.
 
 ```SHELL
-cd /vagrant/BundlerTools/src/bundler/examples/kermit
-/vagrant/BundlerTools/./run.pl
+cd ~/BundlerTools/src/bundler/examples/kermit
+~/BundlerTools/./run.pl
 ```
 
 ---
@@ -98,12 +92,15 @@ To halt vm:
 ```
 exit
 vagrant halt
+
 ```
+
+---
 
 Photos:
 
 Use a simple point and shoot.
-GoPro is a maybe
+GoPro is a maybe (wide angle could be a problem)
 Take lots of overlapping photos.
 Also, consult recommendations at:
 http://wedidstuff.heavyimage.com/index.php/2013/07/12/open-source-photogrammetry-workflow/
