@@ -52,8 +52,7 @@ If you are not logged in, then:
 
 otherwise
 ```SHELL
-unzip /vagrant/BundlerTools.zip /vagrant
-cd /vagrant/BundlerTools
+unzip /vagrant/BundlerTools.zip
 cd /vagrant/BundlerTools
 ./install.sh
 ```
