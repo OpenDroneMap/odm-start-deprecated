@@ -37,7 +37,7 @@ vagrant ssh
 
 ---
 
-otherwise
+Now, we clone the program itself.
 ```SHELL
 cd
 git clone https://github.com/OpenDroneMap/BundlerTools.git
