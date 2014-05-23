@@ -54,6 +54,8 @@ otherwise
 ```SHELL
 unzip /vagrant/BundlerTools.zip /vagrant
 cd /vagrant/BundlerTools
+cd /vagrant/BundlerTools
+./install.sh
 ```
 
 ---
